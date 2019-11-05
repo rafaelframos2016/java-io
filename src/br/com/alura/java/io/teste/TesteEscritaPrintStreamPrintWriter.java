@@ -13,7 +13,7 @@ public class TesteEscritaPrintStreamPrintWriter {
 //		FileWriter fw = new FileWriter("lorem2.txt");
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
 		
-		PrintWriter pw = new PrintWriter("lorem2.txt");
+		PrintWriter pw = new PrintWriter("lorem2.txt","UTF-8");
 		pw.print("teste");
 		pw.println();
 		pw.print("print writer");
